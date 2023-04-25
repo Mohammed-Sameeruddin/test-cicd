@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Build and analyze
-    runs-on: my-label
+    runs-on: self-hosted
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v3
