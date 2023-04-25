@@ -9,7 +9,7 @@ jobs:
   build:
     name: Build and analyze
     runs-on: my-label
-    timeout-minutes: 5
+    timeout-minutes: 8
     defaults:
       run:
         working-directory: demo
